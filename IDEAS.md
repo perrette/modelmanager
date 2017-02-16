@@ -14,7 +14,7 @@
 
 - postprocessing.py: functions to attach to Run class
     + call signiture:
-        `anything = funct(self,**kwargs)` whereas self is the Run instance
+        `anything = funct(self,**kwargs)` where self is the Run instance
     + maybe extended by postprocessing.py in resource dir
 
 - json parameter file
